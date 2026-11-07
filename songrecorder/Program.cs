@@ -100,9 +100,7 @@ class Program
 
                     for (int i = 0; i < playlist.Count; i++)
                     {
-                        Console.WriteLine(
-                            $"{i}. {playlist[i].Title} - {playlist[i].Artist}"
-                        );
+                        Console.WriteLine($"{i}. {playlist[i].Title} - {playlist[i].Artist}");
                     }
 
                     Console.WriteLine($"Total Songs: {playlist.Count}");
@@ -143,7 +141,7 @@ class Program
         }
 
         // Demonstrate record equality
-        Console.WriteLine("\n RECORD EQUALITY TEST7");
+        Console.WriteLine("\n RECORD EQUALITY TEST");
 
         Song song1 = new Song("Hello", "Adele", 295);
         Song song2 = new Song("Hello", "Adele", 295);
